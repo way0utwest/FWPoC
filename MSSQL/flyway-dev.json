@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "name": "FWPoC_MSSQL",
+  "id": "15ed3e8b-7eda-47a8-b237-db9d210856d8",
+  "databaseType": "SqlServer",
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+table "poc"."demo" {
+  columns = (
+    column "demoid" {
+      type = integer
+    }
+  )
+}
+

@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "id": "3dd61db8-7975-428a-8b4e-0ce48acad57f",
+  "name": "FWPoC_PostgreSQL",
+  "databaseType": "PostgreSql",
+  "schemas": [
+    "poc"
+  ],
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}
